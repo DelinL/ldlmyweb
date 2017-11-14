@@ -1,0 +1,15 @@
+{
+  "name": "ldlmyweb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect index.js"
+  },
+  "author": "Delin L <852212583@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.8.1"
+  }
+}
