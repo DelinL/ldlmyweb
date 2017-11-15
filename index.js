@@ -9,5 +9,5 @@ var App = require('./app');
 
 var server = new App();
 http.createServer(server.initServer).listen(PORT, function(){
-	console.log("server listening on port ${PORT}")
+	console.log("server listening on port" + PORT)
 });
