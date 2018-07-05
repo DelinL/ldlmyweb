@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang='zh-CN'>
   <head>
     <meta charset="UTF-8">
@@ -7,15 +7,6 @@
     <title>LDL</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/ldl-css.css" rel="stylesheet">
-    <script>
-      function action(){
-         $('#Down').addClass("more");
-         x=document.getElementById("bn-bg") ;
-         x.style.cssText="opacity: 0";
-         Mylogo=document.getElementById("mylogo") ;
-         Mylogo.style.cssText="transform: rotateX(0deg)  scale(1);-webkit-transform: rotateX(0deg)  scale(1);-moz-transform: rotateX(0deg)  scale(1);-ms-transform: rotateX(0deg)  scale(1);opacity: 1";    
-      }
-    </script>
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,7 +15,7 @@
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body onload="action()">
+  <body>
     <div id="page-wrapper">
       <header id="header">
         <nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
@@ -203,27 +194,5 @@
         </ul>
       </footer>
     
-  <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script> 
-    $(function () { 
-     $(function () { 
-     $(window).scroll(function () { 
-      if ($(window).scrollTop() > 500) { 
-      $("#header").fadeIn(800); 
-      } 
-      else { 
-      $("#header").fadeOut(800); 
-       } 
-    }); 
-  }); 
-});
-$(Down).click(function(){
-var t = $(window).scrollTop();
-
-$('body,html').animate({'scrollTop':t+900},1000)
-
-})
-</script> 
   </body>
 </html>
